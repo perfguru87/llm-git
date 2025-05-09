@@ -11,6 +11,10 @@ This repository contains tools that leverage LLMs to enhance Git-related workflo
 
 These tools work with local LLM servers like LM Studio and Ollama, or can be configured to use cloud-based APIs like OpenAI.
 
+## Prompts Folder
+
+The `prompts` directory contains reusable prompt templates for LLM-powered tools in this repository. These prompts can be used directly with LLMs or as part of automated workflows, and may duplicate the logic of the corresponding Python tools for prompt-based usage.
+
 ## Requirements
 
 - Python 3.6+
