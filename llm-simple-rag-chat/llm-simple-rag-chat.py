@@ -9,26 +9,26 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from llm_simple_rag_chat.document_utils import (
+from document_utils import (
     load_and_cache_chunks
 )
 
-from llm_simple_rag_chat.rag_utils import (
+from rag_utils import (
     build_rag_system, create_document_reranker
 )
 
-from llm_simple_rag_chat.genai_utils import (
+from genai_utils import (
     create_llm,
     create_embeddings,
     list_models
 )
 
-from llm_simple_rag_chat.eval_utils import (
+from eval_utils import (
     evaluate_answers,
     configure_mlflow
 )
 
-from llm_simple_rag_chat.results_analysis import (
+from results_analysis import (
     analyze_evaluation_results
 )
 

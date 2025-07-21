@@ -1,0 +1,6 @@
+# Requirements for gitstats.py and its dependencies
+argparse
+openpyxl
+requests
+# Standard library: sys, os, time, logging, subprocess, shutil, json, zlib, pickle, re, datetime, platform, threading, urllib, typing
+# These do not need to be listed in requirements.txt

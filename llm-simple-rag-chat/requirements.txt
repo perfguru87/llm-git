@@ -17,3 +17,4 @@ unstructured
 pymupdf
 faiss-cpu
 numpy<2 # Required by faiss-cpu
+torch
